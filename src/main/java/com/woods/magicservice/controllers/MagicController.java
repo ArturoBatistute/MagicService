@@ -15,8 +15,8 @@ public class MagicController {
     @Autowired
     MagicService magicService;
 
-    @GetMapping
-    ResponseEntity<Card> allCards(){
+    @GetMapping("/randomCard")
+    ResponseEntity<Card> randomCard(){
 
         Card card = magicService.getRandomCard();
 

@@ -1,5 +1,7 @@
 # Magic the Gathering api
 
+![Alt text](src/main/resources/images/magic.gif?raw=true "Roar")
+
 ## Description
 
 Simple API that returns random Magic cards to be used in a cloud environment.
